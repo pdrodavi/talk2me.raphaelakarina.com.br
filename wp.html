@@ -20,10 +20,10 @@
           || navigator.userAgent.match(/BlackBerry/i)
           || navigator.userAgent.match(/Windows Phone/i)
           ){
-            window.open('whatsapp://send?text=Olá, Raphaela Karina.&phone=5583999801146');
+            window.location.replace('whatsapp://send?text=Olá, Raphaela Karina.&phone=5583999801146');
             }
           else {
-            window.open('https://api.whatsapp.com/send?phone=5583999801146&text=Olá, Raphaela Karina.');
+            window.location.replace('https://api.whatsapp.com/send?phone=5583999801146&text=Olá, Raphaela Karina.');
             }
         }
 
